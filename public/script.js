@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messageElement.className = 'message'; // Add a class for styling
         messageElement.style.backgroundColor = '#020202';
         messageElement.style.borderColor = 'ffffff';
-        messageElement.style.border = 'solid 1px';
+        messageElement.style.border = 'solid 0.5px';
         messageElement.style.borderRadius = '6px';
         messageElement.style.color = 'white';
         messageElement.style.padding = '10px';
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Create delete button
         const deleteButton = document.createElement('button');
-        deleteButton.textContent = 'X';
+        deleteButton.textContent = '❌';
         deleteButton.style.marginLeft = '30px';
         deleteButton.style.backgroundColor ='black';
         deleteButton.style. color = 'blue';

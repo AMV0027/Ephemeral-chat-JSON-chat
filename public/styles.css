@@ -18,13 +18,13 @@ header div h1 {
 header p{
     text-align: center;
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: bold;
+    font-style: oblique;
     color: blue;
 }
 header div img{
     height: 50px;
     margin-right: 15px;
-    filter: invert();
 }
 
 #messageInput {
