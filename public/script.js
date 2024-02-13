@@ -53,11 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateTimer(remainingTime) {
-        const hours = Math.floor(remainingTime / (1000 * 60 * 60));
-        const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
-        timerElement.textContent = `Chat will be cleared in ${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
-    }
+    const hours = Math.floor(remainingTime / (1000 * 60 * 60));
+    const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+    timerElement.textContent = `Time until midnight: ${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
+}
+
 
     fetchMessagesAndTimer();
 
